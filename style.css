@@ -1,0 +1,201 @@
+*{
+	font-family: 'Poppins';
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: maroon;
+}
+.wrapper{
+	background-color: white;
+	width: 1200px;
+	margin: 0 auto;
+	border-top: 10px solid goldenrod;	
+	border-bottom: 10px solid goldenrod;
+}
+.header{
+	display: flex;
+	align-items: center;
+	padding: 25px;
+}
+.header img{
+	margin-right: 20px;
+	width: 80px;
+}
+.header h1{
+	font-size: 35px;
+}
+.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.nav ul{
+	margin: 0;
+	padding: 10px;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+.nav ul li a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+.nav ul li a.active{
+	color: goldenrod;
+}
+.nav ul li a:hover{
+	color: maroon;
+	text-decoration: underline;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+}
+.banner img{
+	width: 100%;
+	height: 450px;
+    filter: brightness(0.8);
+}
+.main{
+	display: flex;
+	padding: 10px;
+	min-height: 500px;
+}
+.left-side-bar{
+	width: 200px;
+	float: left;
+	padding: 10px;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+	border-radius: 20px;
+}
+.left-side-bar h2{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	color: maroon;
+}
+.left-side-bar ul{
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 0px;
+	list-style: none;
+}
+.left-side-bar ul li{
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	background-color: maroon;
+	border-radius: 15px;
+	border-bottom: 1px solid grey;
+}
+.left-side-bar ul li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+}
+.left-side-bar ul li a:hover{
+	background-color: maroon;
+	border-radius: 10px;
+	color: gold;
+}
+.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	padding: 20px;
+	margin: 10px;
+}
+.content h1{
+	padding: 0;
+	margin: 0;
+	color: maroon;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+}
+.content h2{
+	margin-top: 20px;
+	color: orange;
+}
+.content p{
+	text-align: justify;
+	line-height: 35px;
+	text-indent: 25px;
+}
+.right-side-bar .container{
+	margin-top: 30px;
+	margin-left: 30px;
+	float: right;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+.right-side-bar .container ul{
+	list-style: none;
+}
+.right-side-bar .container ul li{
+	padding: 5px;
+	text-align: center;
+}
+.footer{
+	clear: both;
+	padding: 10px;
+	border-top: 1px solid rgb(110, 106, 106);
+	text-align: center;
+}
+.footer p{
+	color: grey;
+	font-size: 15px;
+	font-weight: 300;
+}
+.footer img{
+	padding: 0;
+	margin: 0;
+}
+.form {
+	width: 100%;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: maroon;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+input{
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 4px;
+}
+#message{
+	height: 120px;
+}
+button{
+	padding: 10px;
+	background-color: maroon;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
